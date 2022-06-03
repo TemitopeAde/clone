@@ -8,9 +8,8 @@ import Start from '../Component/Start';
 const Home = () => {
   return (
     <div className='mt-5'>
-        <Card />
-        <Request />
-
+        {/* <Card /> */}
+        {/* <Request /> */}
         <Start />
     </div>
   )

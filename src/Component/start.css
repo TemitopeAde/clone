@@ -7,7 +7,7 @@
 }
 
 .start-section {
-    background-color: #333;
+    background-color: #333 !important;
     color: #fff;
 }
 
@@ -31,3 +31,10 @@
 .start-flex > div {
     width: 45vw;
 }
+
+@media screen and (max-width: 768px) {
+    .start-flex > div {
+        width: 85vw;
+    }
+}
+
