@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { HiOutlineMenuAlt4, HiOutlineMinus } from "react-icons/hi";
 
 import "./footer.css";
 
 const Footer = () => {
   const date = new Date();
+  const [number, setNumber] = useState(3);
   return (
     <div className="px-3 py-5">
       <div className="footer-grid">
@@ -112,33 +114,62 @@ const Footer = () => {
         <div>
           <ul>
             <li>From the blog</li>
-            <li>
-              <p>
-                Scalable data infrastructure in under an hour Scalable Data
-                Infrastructure In Under An Hour
-              </p>
-              <Link className="read" to="/">
-                Read more
-              </Link>
-            </li>
-            <li>
-              <p>
-                Scalable data infrastructure in under an hour Scalable Data
-                Infrastructure In Under An Hour
-              </p>
-              <Link className="read" to="/">
-                Read more
-              </Link>
-            </li>
-            <li>
-              <p>
-                Scalable data infrastructure in under an hour Scalable Data
-                Infrastructure In Under An Hour
-              </p>
-              <Link className="read" to="/">
-                Read more
-              </Link>
-            </li>
+
+            <div className={number === 1 ? "active tabs" : "tabs"}>
+              <img
+                src="https://assets-global.website-files.com/6130fa1501794e37c21867cf/62968eebe60d123426675a7a_220513_NewDataModelForAppReporting_BlogCard_v1_MM-p-500.png"
+                alt=""
+              />
+              <h6 className="fs-5 mt-3">
+                Perform Rapid Analysis Of Your App Platform Data
+              </h6>
+              <Link to="/">Read More</Link>
+            </div>
+
+            <div className={number === 2 ? "active tabs" : "tabs"}>
+              <img
+                src="https://assets-global.website-files.com/6130fa1501794e37c21867cf/61919553dc1f69436eb240bd_6133a18ff052f1f01ad0b36f_blog-_schema-01-p-500.png"
+                alt=""
+              />
+
+              <h6 className="fs-5 mt-3">
+                What Is A Database Schema? Types And Uses In Data Integration
+              </h6>
+              <Link to="/">Read More</Link>
+            </div>
+
+            <div className={number === 3 ? "active tabs" : "tabs"}>
+              <img
+                src="https://assets-global.website-files.com/6130fa1501794e37c21867cf/628bf2d4ff51fe70cb417afd_MDS%20Cook%20Book_BlogHeaders_2-p-500.png"
+                alt=""
+              />
+              <h6 className="fs-5 mt-3">
+                Scalable Data Infrastructure In Under An Hour
+              </h6>
+              <Link to="/">Read More</Link>
+            </div>
+
+            <div className="tabs-icon mb-4">
+              <div
+                className={number === 1 ? "controls blog" : "controls"}
+                onClick={() => setNumber(1)}
+              >
+                1
+              </div>
+              <div
+                className={number === 2 ? "controls blog" : "controls"}
+                onClick={() => setNumber(2)}
+              >
+                2
+              </div>
+              <div
+                className={number === 3 ? "controls blog" : "controls"}
+                onClick={() => setNumber(3)}
+              >
+                3
+              </div>
+            </div>
+
             <li className="icon-wrap" style={{ fontWeight: "bolder" }}>
               Follow us
               <ul className="icons mt-3">
