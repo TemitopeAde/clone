@@ -1,4 +1,4 @@
-const siteData = [
+export const siteData = [
     {
         type: 'application',
         name: 'Zoho CRM',
@@ -153,25 +153,25 @@ const siteData = [
         type: 'application',
         name: 'Oracle Fusion Cloud Applications — ERP',
         tag: 'soon',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/627c32dc6ee1e61fcc5ca662_oracle_fusion_logo.png'
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41QodfboFdL.png'
     },
     {
         type: 'application',
         name: 'Oracle Fusion Cloud Applications — SCM',
         tag: 'soon',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/627c32dc6ee1e61fcc5ca662_oracle_fusion_logo.png'
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41QodfboFdL.png'
     },
     {
         type: 'application',
         name: 'Oracle Fusion Cloud Applications — HCM',
         tag: 'soon',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/627c32dc6ee1e61fcc5ca662_oracle_fusion_logo.png'
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41QodfboFdL.png'
     },
     {
         type: 'application',
         name: 'Oracle Fusion Cloud Applications — CX',
         tag: 'soon',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/627c32dc6ee1e61fcc5ca662_oracle_fusion_logo.png'
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41QodfboFdL.png'
     },
     {
         type: 'application',
@@ -237,7 +237,7 @@ const siteData = [
         type: 'application',
         name: 'Oracle EBS',
         tag: 'new',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a3599bb61673cbac3fe5_6132952cf0922ce03f9416d3_connector_oracle-ebs.png'
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41QodfboFdL.png'
     },
     {
         type: 'application',
@@ -249,13 +249,13 @@ const siteData = [
         type: 'application',
         name: 'SAP ERP (S/4 HANA)',
         tag: 'soon',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a35aaaba4d0228d3d5e8_61912ee5928cce508e917991_S4_HANA_Logo-p-800.jpeg'
+        image: 'https://erproof.com/wp-content/uploads/2012/03/what-is-sap.png'
     },
     {
         type: 'application',
         name: 'Oracle RAC',
         tag: '',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/627056650238264bab07986e_oracle_database_logo-p-500.png'
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41QodfboFdL.png'
     },
     {
         type: 'application',
@@ -273,7 +273,7 @@ const siteData = [
         type: 'application',
         name: 'Twilio',
         tag: 'new',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a35c35ce0aa064f62738_61329521828adb77f0f9d306_connector_twilio-logo-red-p-500.png'
+        image: 'https://www.twilio.com/assets/icons/twilio-icon-512_maskable.png'
     },
     {
         type: 'application',
@@ -681,7 +681,7 @@ const siteData = [
         type: 'application',
         name: 'Microsoft Dynamics 365',
         tag: '',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a38663e9d8a388a48845_6132948724b0d30478e8e348_connector_microsoft-dynamics-365-symbol.svg'
+        image: 'https://www.encorebusiness.com/wp-content/uploads/2015/07/pr_source.png'
     },
     {
         type: 'file',
@@ -741,7 +741,7 @@ const siteData = [
         type: 'application',
         name: 'Oracle Eloqua',
         tag: '',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a38cf3028a2f481e6255_61329475faad7400c515ba7d_eloqua.svg'
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41QodfboFdL.png'
     },
     {
         type: 'application',
@@ -801,7 +801,7 @@ const siteData = [
         type: 'application',
         name: 'Google Analytics 360',
         tag: 'new',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a3918fa52f4159899d7d_6132945e748749eceb05ab5f_connector_google-analytics-360-symbol.svg'
+        image: ''
     },
     {
         type: 'application',
@@ -873,7 +873,7 @@ const siteData = [
         type: 'application',
         name: 'PrestaShop',
         tag: '',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a3a51a99123c3cc63b42_6132903081484f504121f08a_PrestaShop_PNG.png'
+        image: 'https://icons-for-free.com/iconfiles/png/512/prestashop-1324440216897198790.png'
     },
     {
         type: 'application',
@@ -897,7 +897,7 @@ const siteData = [
         type: 'application',
         name: 'Microsoft Dynamics AX',
         tag: '',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a3a794fbe7fe454fd166_613294116e4ba6104af54512_connector_dynamics-ax-p-500.png'
+        image: 'https://www.encorebusiness.com/wp-content/uploads/2015/07/pr_source.png'
     },
     {
         type: 'application',
@@ -909,7 +909,7 @@ const siteData = [
         type: 'application',
         name: 'Microsoft Dynamics GP',
         tag: '',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a3a85227a114c398afc2_6132940eab22a8dd43804087_connector_mdgp.png'
+        image: 'https://www.encorebusiness.com/wp-content/uploads/2015/07/pr_source.png'
     },
     {
         type: 'application',
@@ -927,13 +927,13 @@ const siteData = [
         type: 'application',
         name: 'PrestaShop via MySQL',
         tag: '',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a3a51a99123c3cc63b42_6132903081484f504121f08a_PrestaShop_PNG.png'
+        image: 'https://icons-for-free.com/iconfiles/png/512/prestashop-1324440216897198790.png'
     },
     {
         type: 'application',
         name: 'Microsoft Dynamics CRM',
         tag: '',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a3a96b17bd47c38d4722_61329408dad7ebea9294d9fd_connector_Microsoft-Dynamics-CRM-logo.png'
+        image: 'https://www.encorebusiness.com/wp-content/uploads/2015/07/pr_source.png'
     },
     {
         type: 'application',
@@ -945,7 +945,7 @@ const siteData = [
         type: 'application',
         name: 'Microsoft Dynamics NAV',
         tag: '',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a3aa42545a0a26ca7ceb_6132940286028b0634e3c21f_connector_Microsoft-Dynamics-NAV-Logo-2015.png'
+        image: 'https://www.encorebusiness.com/wp-content/uploads/2015/07/pr_source.png'
     },
     {
         type: 'application',
@@ -981,7 +981,7 @@ const siteData = [
         type: 'database',
         name: 'Oracle',
         tag: '',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/627056650238264bab07986e_oracle_database_logo-p-500.png'
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41QodfboFdL.png'
     },
     {
         type: 'database',
@@ -1077,7 +1077,7 @@ const siteData = [
         type: 'database',
         name: 'Oracle on Amazon RDS',
         tag: '',
-        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/627056650238264bab07986e_oracle_database_logo-p-500.png'
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41QodfboFdL.png'
     },
     {
         type: 'application',

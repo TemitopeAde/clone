@@ -1,0 +1,16 @@
+.nav-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+ul {
+    margin: 0 !important;
+}
+
+.nav-flex ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+

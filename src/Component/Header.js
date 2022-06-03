@@ -27,24 +27,28 @@ const Header = ({ auth, logout }) => {
     const width = window.innerWidth
     const nav = document.querySelector('.n-right')
     const wrap = document.querySelector('.n-wrapper')
+    const gue = document.querySelector(".guest")
+    const str = document.querySelector(".started")
     
     header.classList.toggle('active')
     if (width <= 768) {
       nav.classList.toggle('display')
       wrap.classList.toggle('height')
+      gue.classList.toggle("display")
+      str.classList.toggle("hide")
     }
   };
 
   const guestLinks = (
     <div style={{ display: "flex", gap: "20px" }}>
-      <button className="btn btn-outline-success btn-lg">
-        <Link className="auth" to="/">
-          Sign up
-        </Link>
-      </button>
-      <button className="btn btn-danger btn-lg">
+      <button className="btn login">
         <Link className="auth" to="/">
           Login
+        </Link>
+      </button>
+      <button className="btn btn-primary">
+        <Link className="auth" to="/" style={{ color: '#fff'}}>
+          Get Started
         </Link>
       </button>
     </div>
@@ -52,6 +56,11 @@ const Header = ({ auth, logout }) => {
 
   return (
     <div className="header-section p-3">
+      <button className="started btn btn-primary">
+        <Link className="auth" to="/" style={{ color: '#fff'}}>
+          Get Started
+        </Link>
+      </button>
       <div className="n-wrapper">
         <div className="hamburger" style={{ position: "absolute", right: "20px", top: '0px' }}>
           <div className="containers" onClick={handleClick}>
@@ -102,7 +111,9 @@ const Header = ({ auth, logout }) => {
         </div>
         <div className="n-left">
           <div className="n-name">
-              <Link to='/'>Fivetran</Link>
+              <Link to='/'>
+                <img src="https://assets-global.website-files.com/6130fa1501794ed4d11867ba/613e9ef6d25b70060cb305ca_fivetran-logo.fb5c1b9c.svg" alt="logo" />
+              </Link>
           </div>
         </div>
 
@@ -159,7 +170,10 @@ const Header = ({ auth, logout }) => {
           </div>
         </div>
 
-        {guestLinks}
+        <div className="guest">
+            {guestLinks}
+        </div>
+        
 
       </div>
       

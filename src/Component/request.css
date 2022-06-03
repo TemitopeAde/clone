@@ -1,0 +1,35 @@
+.request-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+
+.request {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.request img {
+    width: 80px;
+}
+
+.request-section {
+    background-color: #fcfcfc
+}
+
+.request a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 768px) {
+    .request-grid {
+        grid-template-columns: 1fr;
+    }
+}
