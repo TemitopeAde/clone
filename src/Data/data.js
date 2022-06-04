@@ -135,7 +135,7 @@ export const siteData = [
         type: 'application',
         name: 'Google Analytics 4',
         tag: 'new',
-        image: ''
+        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/627302020aa96198252869c5_Screen%20Shot%202022-05-03%20at%209.47.48%20AM.png'
     },
     {
         type: 'application',
@@ -351,85 +351,85 @@ export const siteData = [
         type: 'database',
         name: 'MariaDB',
         tag: '',
-        image: ''
+        image: 'https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_6ea8cb7543ad05ad4f09ff38900bbaf7/mariadb.gif'
     },
     {
         type: 'application',
         name: 'Google Play',
         tag: '',
-        image: ''
+        image: 'https://www.logo.wine/a/logo/Google_Play/Google_Play-Icon-Logo.wine.svg'
     },
     {
         type: 'application',
         name: 'Pinterest Ads',
         tag: '',
-        image: ''
+        image: 'https://neilpatel.com/wp-content/uploads/2017/09/Pinterest.jpg'
     },
     {
         type: 'application',
         name: 'Mixpanel',
         tag: '',
-        image: ''
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Mixpanel_full_logo_%E2%80%93_purple.png/1200px-Mixpanel_full_logo_%E2%80%93_purple.png'
     },
     {
         type: 'application',
         name: 'Google Drive',
         tag: '',
-        image: ''
+        image: 'https://png.monster/wp-content/uploads/2020/11/google_drive-9daf5c4b.png'
     },
     {
         type: 'application',
         name: 'Apple App Store (formerly iTunes Connect)',
         tag: '',
-        image: ''
+        image: 'https://logos-world.net/wp-content/uploads/2021/02/App-Store-Logo-2013-2017.png'
     },
     {
         type: 'application',
         name: 'Zuora',
         tag: '',
-        image: ''
+        image: 'https://download.logo.wine/logo/Zuora/Zuora-Logo.wine.png'
     },
     {
         type: 'application',
         name: 'Kustomer',
         tag: '',
-        image: ''
+        image: 'https://getlogo.net/wp-content/uploads/2020/11/kustomer-logo-vector.png'
     },
     {
         type: 'application',
         name: 'AppsFlyer',
         tag: '',
-        image: ''
+        image: 'https://img.favpng.com/10/23/24/logo-appsflyer-mobile-app-portable-network-graphics-brand-png-favpng-Vp4MNGyMgSnVwYYVnQp3CeaDT.jpg'
     },
     {
         type: 'application',
         name: 'Marketo',
         tag: '',
-        image: ''
+        image: 'https://www.seekpng.com/png/detail/369-3699091_details-marketo-new-logo.png'
     },
     {
         type: 'application',
         name: 'Iterable',
         tag: '',
-        image: ''
+        image: 'https://getlogo.net/wp-content/uploads/2020/10/iterable-inc-logo-vector.png'
     },
     {
         type: 'application',
         name: 'Greenhouse',
         tag: '',
-        image: ''
+        image: 'https://seeklogo.com/images/G/greenhouse-company-logo-E53CB4972D-seeklogo.com.png'
     },
     {
         type: 'application',
         name: 'Google Search Console',
         tag: '',
-        image: ''
+        image: 'https://images.squarespace-cdn.com/content/v1/569705680e4c119a540ba178/1616088592695-V0ZMYPWXA8FIH7G488H1/Google-Search-Console.png'
     },
     {
         type: 'application',
         name: 'MySQL on Azure Database',
         tag: '',
-        image: ''
+        image: 'https://miro.medium.com/max/800/1*IzHCt1qM1YgIG5koYHf4sA.png'
     },
     {
         type: 'application',
@@ -441,145 +441,145 @@ export const siteData = [
         type: 'event',
         name: 'Segment',
         tag: '',
-        image: ''
+        image: 'https://seeklogo.com/images/S/segment-logo-FCBB33F58E-seeklogo.com.png'
     },
     {
         type: 'file',
         name: 'SFTP',
         tag: '',
-        image: ''
+        image: 'https://icon-library.com/images/sftp-icon/sftp-icon-5.jpg'
     },
     {
         type: 'application',
         name: 'Campaign Manager',
         tag: '',
-        image: ''
+        image: 'https://static-prod.adweek.com/wp-content/uploads/2020/10/GoogleCampaignManagerLogo-600x315.jpg'
     },
     {
         type: 'database',
         name: 'MariaDB on Azure Database',
         tag: '',
-        image: ''
+        image: 'https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a35dd14f9ba9c3fef8e8_6132951d8413b632c8a69c59_connector_mariadb-amazon-rds-symbol.svg'
     },
     {
         type: 'application',
         name: 'Qualtrics (previously SAP Qualtrics)',
         tag: '',
-        image: ''
+        image: 'https://cdn.freelogovectors.net/wp-content/uploads/2019/02/qualtrics-logo.png'
     },
     {
         type: 'file',
         name: 'Microsoft Azure Blob Storage',
         tag: '',
-        image: ''
+        image: 'https://www.clicdata.com/wp-content/uploads/2021/01/microsoft-azure-blob-storage-logo.com_.png'
     },
     {
         type: 'application',
         name: 'Coupa',
         tag: '',
-        image: ''
+        image: 'https://www.villagereach.org/wp-content/uploads/2022/03/coupa.png'
     },
     {
         type: 'event',
         name: 'Webhooks',
         tag: '',
-        image: ''
+        image: 'https://miro.medium.com/max/700/1*VJlGC2-Em6UNwhYKrw4weQ.png'
     },
     {
         type: 'application',
         name: 'Lightspeed',
         tag: '',
-        image: ''
+        image: 'https://cdn.freebiesupply.com/logos/thumbs/2x/lightspeed-logo.png'
     },
     {
         type: 'application',
         name: 'Lever',
         tag: '',
-        image: ''
+        image: 'https://www.lever.co/wp-content/uploads/2019/04/lever_rgb_logo_standard_transparent_no-padding.png'
     },
     {
         type: 'application',
         name: 'SurveyMonkey',
         tag: '',
-        image: ''
+        image: 'https://download.logo.wine/logo/SurveyMonkey/SurveyMonkey-Logo.wine.png'
     },
     {
         type: 'application',
         name: 'Shopify',
         tag: '',
-        image: ''
+        image: 'https://logos-world.net/wp-content/uploads/2020/11/Shopify-Logo.png'
     },
     {
         type: 'application',
         name: 'front',
         tag: '',
-        image: ''
+        image: 'https://www.underconsideration.com/brandnew/wp/wp-content/uploads/2020/08/front_app_logo_before_after.png'
     },
     {
         type: 'application',
         name: 'Asana',
         tag: '',
-        image: ''
+        image: 'http://assets.stickpng.com/images/586ae70bb6fc1117b60b278d.png'
     },
     {
         type: 'application',
         name: 'SAP Concur',
         tag: '',
-        image: ''
+        image: 'https://seekvectorlogo.com/wp-content/uploads/2019/04/sap-concur-vector-logo.png'
     },
     {
         type: 'application',
         name: 'Apache Kafka',
         tag: '',
-        image: ''
+        image: 'https://www.seekpng.com/png/detail/26-262743_black-on-transparent-apache-kafka-logo-transparent.png'
     },
     {
         type: 'application',
         name: 'Optimizely',
         tag: '',
-        image: ''
+        image: 'https://adagetechnologies.com/wp-content/uploads/2021/05/optimizely_logo_former-epi_dark.png'
     },
     {
         type: 'application',
         name: 'Snowplow Analytics',
         tag: '',
-        image: ''
+        image: 'https://1.bp.blogspot.com/-f3FjcYROkao/W6I1anPMEpI/AAAAAAACHF4/AY6V5L6_FGk2fQNWVhAErZehJbhM4fCYgCLcBGAs/s1600/Screen%2BShot%2B2018-09-19%2Bat%2B07.38.56.png'
     },
     {
         type: 'application',
         name: 'PostgreSQL on RDS',
         tag: '',
-        image: ''
+        image: 'https://miro.medium.com/max/367/1*6j17ZDuywkKu7TOa2yvAKg.png'
     },
     {
         type: 'application',
         name: 'Salesforce Pardot',
         tag: '',
-        image: ''
+        image: 'https://www.pinpng.com/pngs/m/13-136939_salesforce-pardot-custom-integration-salesforce-hd-png-download.png'
     },
     {
         type: 'application',
         name: 'Help Scout',
         tag: '',
-        image: ''
+        image: 'https://seekvectorlogo.com/wp-content/uploads/2019/02/help-scout-vector-logo-small.png'
     },
     {
         type: 'application',
         name: 'Github',
         tag: '',
-        image: ''
+        image: 'https://www.kindpng.com/picc/m/128-1280192_github-logo-png-github-png-transparent-png.png'
     },
     {
         type: 'application',
         name: 'Quickbooks',
         tag: '',
-        image: ''
+        image: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Intuit_QuickBooks_logo.png'
     },
     {
         type: 'application',
         name: 'Criteo',
         tag: '',
-        image: ''
+        image: 'http://assets.stickpng.com/images/5842fc2fa6515b1e0ad75b36.png'
     },
     {
         type: 'application',
@@ -801,7 +801,7 @@ export const siteData = [
         type: 'application',
         name: 'Google Analytics 360',
         tag: 'new',
-        image: ''
+        image: 'https://w7.pngwing.com/pngs/744/982/png-transparent-google-analytics-360-suite-google-adwords-g-suite-google-blue-angle-logo-thumbnail.png'
     },
     {
         type: 'application',
@@ -939,7 +939,7 @@ export const siteData = [
         type: 'application',
         name: 'Google Ad Manager',
         tag: '',
-        image: ''
+        image: 'https://assets-global.website-files.com/5a1eb87c9afe1000014a4c7d/5cb03a1b0f8d73a29eefcf55_logo_google_ad_manager.png'
     },
     {
         type: 'application',

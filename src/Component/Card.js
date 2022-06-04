@@ -12,7 +12,7 @@ const Card = () => {
   const [drop, setDrop] = useState("");
   const [type, setType] = useState("");
 
-  const [filterItems, setFilterItems] = useState([]);
+  const [filterItems, setFilterItems] = useState(siteData);
 
   const handleSearch = (e) => {
     setSearch(e.target.value);
@@ -27,28 +27,14 @@ const Card = () => {
   };
 
 
-  const filter = () => {
-    return data.filter((item) => 
-      item.tag.toLowerCase().includes(drop.toLowerCase())
-    )
-  };
+ useEffect(() => {
+   const filtered = data.filter((item)=>drop ? item.tag.toLowerCase() === drop.toLowerCase() : item)
+   .filter((item)=> search ? item.name.toLowerCase().includes(search.toLowerCase()) : item)
+   .filter((item)=>type ? item.type.toLowerCase() === type.toLowerCase() : item)
+    setFilterItems(filtered);
+  }, [drop, search, type]);
 
-  const filter2 = () => {
-    return filterItems.filter((item) => {
-      item.name.toLowerCase().includes(search.toLowerCase())
-    })
-  }
-  
-
-
-  useEffect(() => {
-    setFilterItems(filter)
-  }, [drop])
-
-  useEffect(() => {
-    console.log(filterItems)
-    setFilterItems(filter2)
-  }, [search])
+ 
 
   useEffect(() => {
     setFilterItems(data);
@@ -101,8 +87,12 @@ const Card = () => {
         </div>
 
         <div className="mt-3">
-          <motion.div layout className="card-grid">
-            <AnimatePresence>
+          <div 
+           
+            
+          
+          >
+            <div  className="card-grid">
               {filterItems.length !== 0 ? (
                 filterItems.map((item, index) => {
                   const { name, image, type, tag } = item;
@@ -147,8 +137,8 @@ const Card = () => {
               ) : (
                 <div className="text-center">Not found</div>
               )}
-            </AnimatePresence>
-          </motion.div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
