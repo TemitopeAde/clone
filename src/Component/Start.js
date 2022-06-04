@@ -57,8 +57,7 @@ const Start = () => {
               modules={[Navigation, Pagination, Scrollbar, Autoplay]}
               spaceBetween={50}
               slidesPerView={1}
-              onSwiper={(swiper) => console.log(swiper)}
-              onSlideChange={() => console.log("slide change")}
+              
               loop={true}
               autoplay={{
                 delay: 1400,
@@ -79,7 +78,7 @@ const Start = () => {
               {imagesData.map((item, index) => {
                 const { img } = item;
                 return (
-                  <div>
+                  <div >
                     <SwiperSlide>
                       <img
                         style={{ width: "162px", height: "65px" }}

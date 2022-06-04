@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { siteData } from "../Data/data";
 import { AnimatePresence, motion } from "framer-motion";
 
 import "./card.css";
+
 
 const Card = () => {
   const [data] = useState(siteData);
@@ -11,7 +12,7 @@ const Card = () => {
   const [drop, setDrop] = useState("");
   const [type, setType] = useState("");
 
-  console.log(drop);
+  const [filterItems, setFilterItems] = useState([]);
 
   const handleSearch = (e) => {
     setSearch(e.target.value);
@@ -25,27 +26,33 @@ const Card = () => {
     setType(e.target.value);
   };
 
-  const filtered = () => {
-    if (search) {
-      return data.filter((items) =>
-        items.name.toLowerCase().includes(search.toLowerCase())
-      );
-    }
 
-    if (drop) {
-      return data.filter((items) =>
-        items.tag.toLowerCase().includes(drop.toLocaleLowerCase())
-      );
-    }
-
-    if (type) {
-      return data.filter((items) =>
-        items.type.toLowerCase().includes(type.toLocaleLowerCase())
-      );
-    }
-
-    return data;
+  const filter = () => {
+    return data.filter((item) => 
+      item.tag.toLowerCase().includes(drop.toLowerCase())
+    )
   };
+
+  const filter2 = () => {
+    return filterItems.filter((item) => {
+      item.name.toLowerCase().includes(search.toLowerCase())
+    })
+  }
+  
+
+
+  useEffect(() => {
+    setFilterItems(filter)
+  }, [drop])
+
+  useEffect(() => {
+    console.log(filterItems)
+    setFilterItems(filter2)
+  }, [search])
+
+  useEffect(() => {
+    setFilterItems(data);
+  }, []);
 
   return (
     <div>
@@ -92,12 +99,12 @@ const Card = () => {
             <h3 className="fs-1">Connectors for every data source.</h3>
           </div>
         </div>
-       
+
         <div className="mt-3">
           <motion.div layout className="card-grid">
             <AnimatePresence>
-              {filtered().length !== 0 ? (
-                filtered().map((item, index) => {
+              {filterItems.length !== 0 ? (
+                filterItems.map((item, index) => {
                   const { name, image, type, tag } = item;
                   return (
                     <div className="card p-4" key={index}>
